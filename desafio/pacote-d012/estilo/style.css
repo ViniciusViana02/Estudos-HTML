@@ -8,3 +8,49 @@ html,body{
     min-height: 100vh;
     background-color: rgb(216, 195, 191);
 }
+
+header{
+        background-color: black;
+        color: aliceblue;
+        text-align:center ;
+     }
+
+header > h1{
+   padding-top: 50px;
+   text-transform: uppercase;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a,footer a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+     background-color: beige;
+     color: black;
+}
+section.imagem{
+    background-color: black;
+    color: antiquewhite;
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(133, 21, 21, 0.301);
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
