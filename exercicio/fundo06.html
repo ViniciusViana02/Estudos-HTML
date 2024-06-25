@@ -12,8 +12,16 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
-        }
-        main{
+            background-attachment:fixed;
+            /*combinar a tag cover e fixed para a imagem de fundo ficar abaptavel sem ficar quebrando a imagem ou tendo um espaço sem fundo em baixo do site*/
+
+            /* esse comando backgroud e para simplificar todos os comando a cima.. então tanto faz usar essas duas formas de chegar a uma determinada configuração, mas usando o comando backgroud e mais rapido e mais simples  */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+             /* shorthand - backgraoud
+            color > image > position > repeat > (size) > attachment. essa e a ordem coreta das configuração
+            [o size pode não funcionar no comando backgroud se isso acontecer basta retira o size do backgroud e adicionar o backgroud - size como nos comando não simplificado ] */
+        }   
+         main{
             background-color: white;
             width: 400px;
             padding: 10px;
@@ -29,6 +37,7 @@
         <h1>teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde harum molestiae rem fuga laudantium, similique odit, qui reprehenderit, possimus saepe repudiandae repellendus distinctio eveniet. Minus perspiciatis dolore earum nemo repudiandae.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus a quasi laboriosam unde nemo, commodi incidunt similique nam enim deserunt sint accusantium provident eligendi. Ut reprehenderit eos sapiente. Sed, magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias voluptatibus deserunt officiis dolore fugit? Tenetur voluptas natus totam voluptates, culpa quo odio esse rem voluptate laborum nesciunt molestiae aspernatur?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias rem repellendus dignissimos a. At vitae nulla, corrupti nostrum alias accusantium recusandae nemo necessitatibus laudantium. Excepturi unde fuga hic numquam repudiandae.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias voluptatibus deserunt officiis dolore fugit? Tenetur voluptas natus totam voluptates, culpa quo odio esse rem voluptate laborum nesciunt molestiae aspernatur?</p>
     </main>
     
 </body>
